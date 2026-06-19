@@ -93,7 +93,7 @@ iProject is a native SwiftUI app. Build it from source in about a minute.
 
 ```bash
 # 1. Clone
-git clone https://github.com/hitgub616/iproject.git
+git clone https://github.com/hitgub616/iProject.git
 cd iproject
 
 # 2. Generate the Xcode project

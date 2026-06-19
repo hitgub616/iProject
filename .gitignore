@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+
+# XcodeGen output — regenerate with `xcodegen generate`
+*.xcodeproj
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# Generated app bundle
+*.app
+
+# Scratch sound-design auditions (the app synthesizes its tick in code)
+Sounds/
+
+# Misc
+*.log

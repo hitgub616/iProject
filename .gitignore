@@ -31,3 +31,4 @@ Sounds/
 
 # Misc
 *.log
+.gstack/

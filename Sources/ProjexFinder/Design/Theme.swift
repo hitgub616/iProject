@@ -161,4 +161,13 @@ extension Color {
     /// Soft center bloom on the cover stage.
     static let stageGlow = dynamicColor(
         light: rgb(1, 1, 1, 0.45), dark: rgb(1, 1, 1, 0.05))
+
+    /// Drop shadow under a Cover Flow card. Soft and light on a white stage,
+    /// deep on a dark one.
+    static let coverShadow = dynamicColor(
+        light: rgb(0, 0, 0, 0.16), dark: rgb(0, 0, 0, 0.55))
+    /// Hairline edge around a card — a faint dark line defines the album on a
+    /// light stage; a faint white line lifts it on a dark stage.
+    static let coverBorder = dynamicColor(
+        light: rgb(0, 0, 0, 0.12), dark: rgb(1, 1, 1, 0.14))
 }

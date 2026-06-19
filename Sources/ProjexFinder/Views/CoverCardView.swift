@@ -96,8 +96,8 @@ struct CoverCardView: View {
             )
             .overlay(Color.black.opacity(dim))
             .clipShape(rrect)
-            .overlay(rrect.strokeBorder(.white.opacity(0.14), lineWidth: 1))
-            .shadow(color: .black.opacity(0.55),
+            .overlay(rrect.strokeBorder(Color.coverBorder, lineWidth: 1))
+            .shadow(color: .coverShadow,
                     radius: metrics.cardSize * 0.06, x: 0, y: metrics.cardSize * 0.045)
     }
 

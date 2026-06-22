@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/icon.png" width="132" alt="iProject app icon" />
+
 # iProject
 
 ### Your projects, worth looking at.

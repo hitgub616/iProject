@@ -16,7 +16,7 @@ settings:
     CODE_SIGN_STYLE: Manual
     ENABLE_HARDENED_RUNTIME: YES
     COMBINE_HIDPI_IMAGES: YES
-    ASSETCATALOG_COMPILER_APPICON_NAME: ""
+    ASSETCATALOG_COMPILER_APPICON_NAME: "AppIcon"
 targets:
   iProject:
     type: application
